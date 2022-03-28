@@ -1,0 +1,266 @@
+include standard library
+inculde math library
+
+main outline
+
+declare addition words as integer variables
+declare subtraction words as integer variables
+declare multiplication words as integer variables
+declare division words as integer variables
+
+declare answer words as float variables
+declare the operation chosen as a chracter variable
+
+print to the user and show what the possible operations are, then ask what operation the user wants to
+print to the user and ask what the user wants to do
+save what the user says as a chracter inside of operation chosen
+
+if the user chose + as the operation chosen
+then
+print to the user asking for number one
+store the answer as an integer inside of addition variable mentioned before
+print to the user asking for number two
+store the answer as an integer inside of another addition variable mentioned before
+add the two numbers that are stored in the addition variables and store the answer inside of sum mentioned before in the answer words
+print out the answer to the user
+
+else if the user chose - as the operation chosen
+then
+print to the user asking for number one
+store the answer as an integer inside of subtraction variable mentioned before
+print to the user asking for number two
+store the answer as an integer inside of the other subtraction variable mentioned before
+add the two numbers that are stored in the subtraction variables and store the answer inside of difference mentioned before in the answer words
+print out the answer to the user
+
+else if the user chose * as the operation chosen
+then
+print to the user asking for number one
+store the answer as an integer inside of multiplication variable mentioned before
+print to the user asking for number two
+store the answer as an integer inside of the other multiplication variable mentioned before
+add the two numbers that are stored in the multiplication variables and store the answer inside of product mentioned before in the answer words
+print out the answer to the user
+
+else if the user chose / as the operation chosen
+then
+print to the user asking for number one
+store the answer as an integer inside of division variable mentioned before
+print to the user asking for number two
+store the answer as an integer inside of the other division variable mentioned before
+add the two numbers that are stored in the division variables and store the answer inside of quotient mentioned before in the answer words
+print out the answer to the user
+
+else if the user chose F as the operation chosen
+then
+float fahrenheit and celsius
+print to the user asking for fahrenheit
+store the answer as an integer inside of fahrenheit float mentioned before
+apply the calculation to convert fahrenheit to celsius
+print out the number in celsius to the user
+add a return value as a succsess
+
+else if the user chose C as the operation chosen
+then
+float celsius and fahrenheit
+print to the user asking for celsius
+store the answer as an integer inside of celsius float mentioned before
+apply the calculation to convert celsius to fahrenheit
+print out the number in fahrenheit to the user
+add a return value as a succsess
+
+else if the user chose G as the operation chosen
+then
+float gallons and liters
+print to the user asking for gallons
+store the answer as an integer inside of gallons float mentioned before
+apply the calculation to convert gallons to liters
+print out the number in liters to the user
+add a return value as a succsess
+
+else if the user chose L as the operation chosen
+then
+float liters and gallons
+print to the user asking for liters
+store the answer as an integer inside of liters float mentioned before
+apply the calculation to convert liters to gallons
+print out the number in gallons to the user
+add a return value as a succsess
+
+else if the user chose R as the operation chosen
+then
+tell the computer the number of days in ecah month
+tell the computer the days of the week
+store d, m, y, and i as an integer
+
+ask the user for the date
+store what the user says as d-day m-month and y-year
+
+if the year is a multiple of 4
+then correct for the leap year by adding a day to february
+
+if the year is less than 1900, or if the month is less than 1 or greater than 12, of if the day is less than 1 or greater than the number of days in the month
+then print this is a invalid date to the user
+return 1 as a failure
+
+apply the calculation to find the day of the week the date is
+print out to the user the day of the week the date is
+return 0 as a succsess
+
+else if the user chose S as the operation chosen
+then
+store number as an integer
+store result as a double
+print out to the user asking for a number to find the square root of
+store what the user says as "number"
+apply the equation to find the square root of number using the sqrt function
+store the square root of the number as "result"
+print out the square root of the number to the user
+return 0 as a succsess
+         
+else if the user chose C as the operation chosen
+then
+store number as an integer
+store result as a double
+print out to the user asking for a number to find the cube root of
+store what the user says as "number"
+apply the equation to find the cube root of number using the cbrt function
+store the cube root of the number as "result"
+print out the cube root of the number to the user
+return 0 as a succsess
+
+else if the user chose W as the operationChosen
+then
+store number as type int
+store answer as type float
+print out to the user asking for the number
+scan what the user says as number
+apply the equation to square the number
+print out the number squared to the user
+go to the next line
+
+else if the user chose E as the operationChosen
+then
+store number as type int
+store answer as type float
+print out to the user asking for the number
+scan what the user says as number
+apply the equation to cube the number
+print out the number cubed to the user
+go to the next line
+
+else if the user chose X as the operationChosen
+then
+store age as an int
+store seconds as variable type  int
+
+print out to the user asking how old they are
+scan what the user says as age
+
+if the age is less than 70 then
+
+apply the equation to find the number of seconds with leap year here (seconds = (age * 356.2525 * 24 * 60 * 60);)
+store the answer as seconds
+print out how many seconds old the user is
+return 0 as a succsess
+
+
+    else if the age is 70 or above than
+
+    tell the user that the age must be below 70
+    return 1 as an error
+
+else if the user chose K as the operationChosen
+{
+
+store Millimeter, Centimeter, Meter, Decameter, Hectometer, and Kilometer as floats
+print out to the user asking for the length in kilometers
+scan what the user says as kilometer
+
+apply the equations, multiplying by 10, then adding a zero until 100000
+store the answers in their respective measurments
+    	
+
+print out to the user showing kilometers in the other measurments
+
+
+
+else if the user chose M as the operationChosen
+
+ store miles and kilometers as a float
+print to the user asking for the number of miles
+scan what the user says as miles
+
+apply equation to convert miles to kilometers
+store the answer as Kilometers
+
+print out to the user the miles in kilometers
+go to the next line
+
+
+else if the user chose N as the operationChosen
+
+ store miles and kilometers as a float
+print to the user asking for the number of kilometers
+scan what the user says as kilometers
+
+apply equation to convert kilometers to miles
+store the answer as miles
+
+print out to the user the miles in miles
+go to the next line
+
+else if the user chose V as the operationChosen
+
+ store pounds and kilograms as a float
+print to the user asking for the number of pounds
+scan what the user says as pounds
+
+apply equation to convert pounds to kilograms
+store the answer as kilograms
+
+print out to the user the pounds in kilograms
+go to the next line
+
+else if the user chose P as the operationChosen
+
+ store pounds and kilograms as a float
+print to the user asking for the number of kilograms
+scan what the user says as kilograms
+
+apply equation to convert kilograms to pounds
+store the answer as pounds
+
+print out to the user the kilograms in pounds
+go to the next line
+
+else if the user chose Z as the operation chosen
+
+store tempWindChill, windSpeed and tempature as a float
+
+print out the user asking for the tempature in fahrenheit
+scan what the user says as tempature
+
+print out the user asking for the wind speed
+scan what the user says as windSpeed
+
+apply the calculation to convert tempature and windSpeed to tempWindChill (tempature in wind chill)
+store what the answer is as tempWindChill
+
+go to the next line as a convience to the user
+ tempWindChill = 35.74 + 0.6215*tempature + (0.4275*tempature - 35.75) * pow(windSpeed,0.16);
+ printf("%f with wind chill is in fahrenheit %f.", tempature, tempWindChill);
+ printf("\n");
+
+ else 
+         if nothing matches operationChosen then
+         print to the user that the symbol isn't correct
+         return 1 as a failure
+}
+return 0 as a succsess for the overall program
+
+
+    end else statement
+return 0 to get a return value
+end main codespace
+end program
